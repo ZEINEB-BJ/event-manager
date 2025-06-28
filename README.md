@@ -22,7 +22,7 @@ Le tout dans une interface responsive et élégante, propulsée par **Bootstrap*
 - HTML5
 - CSS3 + [Bootstrap 5](https://getbootstrap.com)
 - JavaScript
-- PHP (procédural)
+- PHP 
 - MySQL (base de données)
 
 ---
@@ -38,8 +38,8 @@ event-manager/
 ├── includes/
 │   └── db.php           # Fichier de connexion à la base de données
 ├── assets/
-│   ├── css/             # Fichiers CSS personnalisés (optionnel)
-│   └── js/              # Scripts JS (optionnel)
+│   ├── css/             # Fichiers CSS personnalisés 
+│   └── js/              # Scripts JS 
 └── README.md
 
 👩‍💻 Auteur
