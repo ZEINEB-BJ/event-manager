@@ -1,6 +1,11 @@
 <?php
 require_once 'includes/db.php';
+session_start();
 
+if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
+    header('Location: login.php');
+    exit;
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $titre = trim($_POST['titre'] ?? '');
     $lieu = trim($_POST['lieu'] ?? '');

@@ -1,6 +1,11 @@
 <?php
 require_once 'includes/db.php';
+session_start();
 
+if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
+    header('Location: login.php');
+    exit;
+}
 // 1. Vérifier l'ID
 if (!isset($_GET['id']) || !ctype_digit($_GET['id'])) {
     die("ID invalide.");
