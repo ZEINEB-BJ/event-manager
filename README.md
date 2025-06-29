@@ -30,6 +30,20 @@ Elle permet d’ajouter, afficher, modifier, supprimer des événements, comment
 
 ---
 
+## 📸 Aperçu
+
+### Page d'accueil (publique)
+
+![Accueil](assets/capture-accueil.png)
+
+### Ajout d'un événement (admin)
+
+![Ajout](assets/capture-ajout.png)
+
+### Commentaires sur un événement
+
+![Commentaires](assets/capture-commentaires.png)
+
 ## 📁 Structure du projet
 
 ```bash
