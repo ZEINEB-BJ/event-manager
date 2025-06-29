@@ -23,6 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <meta charset="UTF-8" />
 <title>Connexion Admin</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
 <div class="container mt-5" style="max-width: 400px;">
