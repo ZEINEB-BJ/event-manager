@@ -30,19 +30,19 @@ Elle permet d’ajouter, afficher, modifier, supprimer des événements, comment
 
 ---
 
-## 📸 Aperçu
+## 🖼️ Aperçu de l'application
 
-### Page d'accueil (publique)
+### 🏠 Page d'accueil (publique)
 
-![Accueil](assets/capture-accueil.png)
+![Accueil](assets/capture-accueil.png.png)
 
-### Ajout d'un événement (admin)
+### ➕ Formulaire d'ajout (admin)
 
-![Ajout](assets/capture-ajout.png)
+![Ajout](assets/capture-ajout.png.png)
 
-### Commentaires sur un événement
+### 💬 Commentaires
 
-![Commentaires](assets/capture-commentaires.png)
+![Commentaires](assets/capture-commentaires.png.png)
 
 ## 📁 Structure du projet
 
